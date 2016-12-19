@@ -1,0 +1,40 @@
+@CHARSET "UTF-8";
+#login-container {
+	width: 450px;
+	margin: 80px auto 0;	
+}
+
+#login-header {	
+	padding: 5px 0;
+	margin-bottom: 1em;
+	background: #3C4049;
+	border-radius: 5px;	
+}
+
+#login-header h3 {		
+	font-size: 18px;
+	color: #FFF;	
+	text-align: center;
+}
+
+#login-content {	
+	padding:20px 20px 0;
+	border: 1px solid #DDD;	
+	border-radius: 5px;	
+}
+
+#login-content label{
+	height:32px;
+	line-height: 32px;
+}
+
+#login-content .btn{
+	width:80px;
+}
+
+@media (max-width: 500px) {
+	#login-container {
+		width: 100%;
+		margin: 40px auto 0;
+	}
+}
